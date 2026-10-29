@@ -89,3 +89,19 @@ print(f"[{name:<10}]")   # [Manav     ]  (left-aligned)
 # The f is required: Without it, "{name}" prints as plain text {name}.
 # Fixes your earlier error: The TypeError from "..." + len(...) disappears with f"Number of letters: {len(name)}", since numbers are converted automatically.
 # Quotes inside {}: Before Python 3.12, use a different quote type inside the braces than the one wrapping the string:
+
+# f strings
+score = 0
+score += 1
+print(score)
+
+# f strings
+print("Your score is", score)
+# print("Your score is" + score)  # This will give error
+print(f"Your score is:{score}")
+
+score = 0
+height = 1.8
+is_winning = True
+
+print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}")

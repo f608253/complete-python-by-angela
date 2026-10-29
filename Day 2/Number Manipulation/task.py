@@ -105,3 +105,10 @@ height = 1.8
 is_winning = True
 
 print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}")
+
+# Quiz 1:
+# What is the datatype of the result of the variable a in the following code:
+
+a = int("5") / int(2.7)
+print(a)
+print(type(a))

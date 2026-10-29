@@ -33,4 +33,9 @@ print(2 ** 3)
 # Bitwise XOR operator (NOT exponent): compares the binary bits of 2 and 3, prints 1
 print(2 ^ 3)
 
+# PEMDAS
+# Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+print(3 * 3 + 3 / 3 - 3)
 
+# Change above so that it prints 3
+print(3 * 3 + 3 / 3 - 3)

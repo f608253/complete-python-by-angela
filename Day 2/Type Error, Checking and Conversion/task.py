@@ -26,3 +26,15 @@ print(f"Number of letters in your name: {len(input('Enter your name '))}")
 name = input("Enter your name ")
 length = len(name)
 print("Number of letters in your name:", length)
+
+# Task - Write out 4 type checks to print all 4 data types in Python
+# str , int , float , bool
+
+print(type("Hello Manav"))
+print(type(123))
+print(type(233.56))
+print(type(True))
+print(type(False))
+
+# Below will give 'ValueError'
+print(int("abc") + int("456"))

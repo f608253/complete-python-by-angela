@@ -27,4 +27,10 @@ print(type(6 / 3))
 print(6 // 3)
 print(type(6 //3))
 
+# Exponent operator: 2 raised to the power of 3 (2 * 2 * 2), prints 8
+print(2 ** 3)
+
+# Bitwise XOR operator (NOT exponent): compares the binary bits of 2 and 3, prints 1
+print(2 ^ 3)
+
 
